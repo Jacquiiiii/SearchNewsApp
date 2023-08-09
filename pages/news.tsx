@@ -49,7 +49,7 @@ const News: React.FC<NewsProps> = ({ news }) => {
             backgroundColor: '#4f4f4f',
             color: '#fff',
             border: 'none',
-            padding: '10px 20px',
+            padding: '10px',
             marginRight: '10px',
             marginTop: '10px',
             marginBottom: '10px',
