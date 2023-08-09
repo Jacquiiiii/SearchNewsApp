@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 
 const Index = () => {
   return (
-    <Layout title="The News App" footer={'@2023'}>
+    <Layout title="News App" footer={'@2023'}>
       <Head>
         <title>Home Page</title>
       </Head>
