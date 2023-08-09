@@ -29,15 +29,7 @@ const News: React.FC<NewsProps> = ({ news }) => {
 
   return (
     <Layout title="News" footer={'@2023'}>
-      <form
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          margin: '20px',
-        }}
-        onSubmit={handleSubmit}
-      >
+      <form onSubmit={handleSubmit} style={{margin: '10px'}}>
         <input
           type="text"
           placeholder="Enter a search term..."
@@ -47,8 +39,7 @@ const News: React.FC<NewsProps> = ({ news }) => {
             padding: '10px',
             border: '2px solid #ccc',
             borderRadius: '6px',
-            marginRight: '10px',
-            flex: '1',
+            margin: '10px',
             outline: 'none',
           }}
         />
@@ -58,7 +49,10 @@ const News: React.FC<NewsProps> = ({ news }) => {
             backgroundColor: '#4f4f4f',
             color: '#fff',
             border: 'none',
-            padding: '10px 60px',
+            padding: '10px 20px',
+            marginRight: '10px',
+            marginTop: '10px',
+            marginBottom: '10px',
             borderRadius: '4px',
           }}
         >
