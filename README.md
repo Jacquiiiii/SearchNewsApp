@@ -4,8 +4,6 @@ This app originated as a project for the Udemy course [Next JS with React Hooks 
 
 The app was built using Next.js, React, and TypeScript and uses the [Hacker News API](https://hn.algolia.com/api) to fetch news articles. The CSS was done with  [Material Design for Bootstrap](https://mdbootstrap.com/), Google Fonts, and custom CSS via inline styling. The newspaper icon comes from [IconScout](https://iconscout.com/)
 
-[Deployed on Heroku](https://search-news-app-44908a5883b1.herokuapp.com/).
-
 ## Getting Started
 
 1. Clone the repo
